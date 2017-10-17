@@ -11,9 +11,10 @@
       subtraction op1, op2
     when '*'
       Multiplication op1, op2
-    
     when '/'
       Divide op1, op2
+    when '^'
+      power op1, op2
     end
  end
 
@@ -35,6 +36,14 @@
   def Divide op1, op2
     div = op1 / op2
     puts div
+  end
+  def power op1, op2
+    n = 1
+    while n <= op2
+      pow = op1 * op1
+      n +=1
+    end
+    puts pow
   end
 
   getoprands       
