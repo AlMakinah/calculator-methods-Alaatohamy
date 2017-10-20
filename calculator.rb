@@ -50,6 +50,7 @@
 
   puts getoprands       
    
+### other way without methods
 
  # def calculate (op1, op2, operation)
  #    case operation
